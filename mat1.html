@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <title>Diseño con CSS Grid</title>
+  <style>
+    * {
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      padding: 1rem;
+    }
+
+    h2 {
+      padding-bottom: 1rem;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 1rem;
+      margin-bottom: 3rem;
+    }
+
+    aside ul li {
+      list-style-type: none;
+      background-color: blueviolet;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 1rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    main {
+      overflow-y: auto;
+    }
+
+    .btn1 {
+      background-color: #ac92ed;
+    }
+
+    .btn1:hover {
+      background-color: #967bdc;
+    }
+
+    .btn2 {
+      background-color: #6c9af2;
+    }
+
+    .btn2:hover {
+      background-color: #5185e8;
+    }
+
+    .btn3 {
+      background-color: #50c1e9;
+    }
+
+    .btn3:hover {
+      background-color: #3baeda;
+    }
+
+    .btn4 {
+      background-color: #48cfae;
+    }
+
+    .btn4:hover {
+      background-color: #37bd9c;
+    }
+
+    .btn5 {
+      background-color: #baf84b;
+    }
+
+    .btn5:hover {
+      background-color: #86d500;
+    }
+
+    .card {
+      background-color: #ac92ed;
+      border-radius: 1rem;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    h4 {
+      margin-top: 1rem;
+    }
+    .cita {
+      font-style: italic;
+      border-left: 4px solid #ccc;
+      padding: 20px;
+      margin: 20px 0;
+      color: #555;
+      background-color: #f9f9f9;
+      border-radius: 1rem;
+    }
+
+    .cita cite {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Informática 2024-III</h1>
+  <div class="container">
+    <aside>
+      <h2>Materias</h2>
+      <ul>
+        <a href="mat1.html">
+          <li class="btn1">Redes</li>
+        </a>
+        <a href="mat2.html">
+          <li class="btn2">Proyecto Especial de Grado</li>
+        </a>
+        <a href="mat3.html">
+          <li class="btn3">Electiva</li>
+        </a>
+        <a href="mat4.html">
+          <li class="btn4">Auditoria de Sistemas</li>
+        </a>
+        <a href="mat5.html">
+          <li class="btn5">Teoría del Desarrollo Social y Económico</li>
+        </a>
+      </ul>
+    </aside>
+    <main>
+      <h2>Redes</h2>
+      <div class="card">
+        <h3>Fundamentos de Redes</h3>
+        <p>Examen / Infografia</p>
+        <h4>14/10/2024</h4>
+      </div>
+      <div class="card">
+        <h3>Dispositivos / Topologías</h3>
+        <p>Expo / Trabajo</p>
+        <h4>28/10/2024</h4>
+      </div>
+      <div class="card">
+        <h3>Modelo TCP / IP</h3>
+        <p>Defensa / Video</p>
+        <h4>11/11/2024</h4>
+      </div>
+      <div class="card">
+        <h3>Direccionamiento y Subredes</h3>
+        <p>Ejercicio Grupal / Examen</p>
+        <h4>25/11/2024</h4>
+      </div>
+      <div class="card">
+        <h3>Tecnología de Redes</h3>
+        <p>Expo / Trabajo</p>
+        <h4>09/12/2024</h4>
+      </div>
+    </main>
+  </div>
+  <blockquote class="cita">
+    <p>"La simplicidad es la máxima sofisticación."</p>
+    <cite>— Leonardo da Vinci</cite>
+  </blockquote>
+</body>
+
+</html>
