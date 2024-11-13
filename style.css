@@ -94,6 +94,7 @@ main {
 
 aside {
   width: 30%;
+  height: fit-content;
   max-width: 300px;
 }
 
